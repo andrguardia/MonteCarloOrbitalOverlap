@@ -14,6 +14,9 @@
 		AB2B85EF29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85EE29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift */; };
 		AB2B85F929A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85F829A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift */; };
 		AB2B85FB29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85FA29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift */; };
+		AB2B860829A018C500162990 /* SOrbital.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B860729A018C500162990 /* SOrbital.swift */; };
+		AB2B860929A018C500162990 /* SOrbital.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B860729A018C500162990 /* SOrbital.swift */; };
+		AB2B860A29A018C500162990 /* SOrbital.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B860729A018C500162990 /* SOrbital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		AB2B85F429A0170B00162990 /* MonteCarloOrbitalOverlapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonteCarloOrbitalOverlapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2B85F829A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapUITests.swift; sourceTree = "<group>"; };
 		AB2B85FA29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB2B860729A018C500162990 /* SOrbital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOrbital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				AB2B85DC29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift */,
 				AB2B85DE29A0170A00162990 /* ContentView.swift */,
+				AB2B860729A018C500162990 /* SOrbital.swift */,
 				AB2B85E029A0170B00162990 /* Assets.xcassets */,
 				AB2B85E229A0170B00162990 /* MonteCarloOrbitalOverlap.entitlements */,
 				AB2B85E329A0170B00162990 /* Preview Content */,
@@ -261,6 +266,7 @@
 			files = (
 				AB2B85DF29A0170A00162990 /* ContentView.swift in Sources */,
 				AB2B85DD29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift in Sources */,
+				AB2B860829A018C500162990 /* SOrbital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2B85EF29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift in Sources */,
+				AB2B860929A018C500162990 /* SOrbital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			files = (
 				AB2B85FB29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift in Sources */,
 				AB2B85F929A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift in Sources */,
+				AB2B860A29A018C500162990 /* SOrbital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
