@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2B85DD29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85DC29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift */; };
+		AB2B85DF29A0170A00162990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85DE29A0170A00162990 /* ContentView.swift */; };
+		AB2B85E129A0170B00162990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2B85E029A0170B00162990 /* Assets.xcassets */; };
+		AB2B85E529A0170B00162990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2B85E429A0170B00162990 /* Preview Assets.xcassets */; };
+		AB2B85EF29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85EE29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift */; };
+		AB2B85F929A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85F829A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift */; };
+		AB2B85FB29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B85FA29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2B85EB29A0170B00162990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2B85D129A0170A00162990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2B85D829A0170A00162990;
+			remoteInfo = MonteCarloOrbitalOverlap;
+		};
+		AB2B85F529A0170B00162990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2B85D129A0170A00162990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2B85D829A0170A00162990;
+			remoteInfo = MonteCarloOrbitalOverlap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2B85D929A0170A00162990 /* MonteCarloOrbitalOverlap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonteCarloOrbitalOverlap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B85DC29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapApp.swift; sourceTree = "<group>"; };
+		AB2B85DE29A0170A00162990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB2B85E029A0170B00162990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2B85E229A0170B00162990 /* MonteCarloOrbitalOverlap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonteCarloOrbitalOverlap.entitlements; sourceTree = "<group>"; };
+		AB2B85E429A0170B00162990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB2B85EA29A0170B00162990 /* MonteCarloOrbitalOverlapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonteCarloOrbitalOverlapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B85EE29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapTests.swift; sourceTree = "<group>"; };
+		AB2B85F429A0170B00162990 /* MonteCarloOrbitalOverlapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonteCarloOrbitalOverlapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B85F829A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapUITests.swift; sourceTree = "<group>"; };
+		AB2B85FA29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloOrbitalOverlapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2B85D629A0170A00162990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85E729A0170B00162990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85F129A0170B00162990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2B85D029A0170A00162990 = {
+			isa = PBXGroup;
+			children = (
+				AB2B85DB29A0170A00162990 /* MonteCarloOrbitalOverlap */,
+				AB2B85ED29A0170B00162990 /* MonteCarloOrbitalOverlapTests */,
+				AB2B85F729A0170B00162990 /* MonteCarloOrbitalOverlapUITests */,
+				AB2B85DA29A0170A00162990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2B85DA29A0170A00162990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B85D929A0170A00162990 /* MonteCarloOrbitalOverlap.app */,
+				AB2B85EA29A0170B00162990 /* MonteCarloOrbitalOverlapTests.xctest */,
+				AB2B85F429A0170B00162990 /* MonteCarloOrbitalOverlapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2B85DB29A0170A00162990 /* MonteCarloOrbitalOverlap */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B85DC29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift */,
+				AB2B85DE29A0170A00162990 /* ContentView.swift */,
+				AB2B85E029A0170B00162990 /* Assets.xcassets */,
+				AB2B85E229A0170B00162990 /* MonteCarloOrbitalOverlap.entitlements */,
+				AB2B85E329A0170B00162990 /* Preview Content */,
+			);
+			path = MonteCarloOrbitalOverlap;
+			sourceTree = "<group>";
+		};
+		AB2B85E329A0170B00162990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B85E429A0170B00162990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB2B85ED29A0170B00162990 /* MonteCarloOrbitalOverlapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B85EE29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift */,
+			);
+			path = MonteCarloOrbitalOverlapTests;
+			sourceTree = "<group>";
+		};
+		AB2B85F729A0170B00162990 /* MonteCarloOrbitalOverlapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B85F829A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift */,
+				AB2B85FA29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift */,
+			);
+			path = MonteCarloOrbitalOverlapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2B85D829A0170A00162990 /* MonteCarloOrbitalOverlap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B85FE29A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlap" */;
+			buildPhases = (
+				AB2B85D529A0170A00162990 /* Sources */,
+				AB2B85D629A0170A00162990 /* Frameworks */,
+				AB2B85D729A0170A00162990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonteCarloOrbitalOverlap;
+			productName = MonteCarloOrbitalOverlap;
+			productReference = AB2B85D929A0170A00162990 /* MonteCarloOrbitalOverlap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2B85E929A0170B00162990 /* MonteCarloOrbitalOverlapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B860129A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlapTests" */;
+			buildPhases = (
+				AB2B85E629A0170B00162990 /* Sources */,
+				AB2B85E729A0170B00162990 /* Frameworks */,
+				AB2B85E829A0170B00162990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2B85EC29A0170B00162990 /* PBXTargetDependency */,
+			);
+			name = MonteCarloOrbitalOverlapTests;
+			productName = MonteCarloOrbitalOverlapTests;
+			productReference = AB2B85EA29A0170B00162990 /* MonteCarloOrbitalOverlapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2B85F329A0170B00162990 /* MonteCarloOrbitalOverlapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B860429A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlapUITests" */;
+			buildPhases = (
+				AB2B85F029A0170B00162990 /* Sources */,
+				AB2B85F129A0170B00162990 /* Frameworks */,
+				AB2B85F229A0170B00162990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2B85F629A0170B00162990 /* PBXTargetDependency */,
+			);
+			name = MonteCarloOrbitalOverlapUITests;
+			productName = MonteCarloOrbitalOverlapUITests;
+			productReference = AB2B85F429A0170B00162990 /* MonteCarloOrbitalOverlapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2B85D129A0170A00162990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB2B85D829A0170A00162990 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB2B85E929A0170B00162990 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB2B85D829A0170A00162990;
+					};
+					AB2B85F329A0170B00162990 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB2B85D829A0170A00162990;
+					};
+				};
+			};
+			buildConfigurationList = AB2B85D429A0170A00162990 /* Build configuration list for PBXProject "MonteCarloOrbitalOverlap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2B85D029A0170A00162990;
+			productRefGroup = AB2B85DA29A0170A00162990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2B85D829A0170A00162990 /* MonteCarloOrbitalOverlap */,
+				AB2B85E929A0170B00162990 /* MonteCarloOrbitalOverlapTests */,
+				AB2B85F329A0170B00162990 /* MonteCarloOrbitalOverlapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2B85D729A0170A00162990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B85E529A0170B00162990 /* Preview Assets.xcassets in Resources */,
+				AB2B85E129A0170B00162990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85E829A0170B00162990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85F229A0170B00162990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2B85D529A0170A00162990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B85DF29A0170A00162990 /* ContentView.swift in Sources */,
+				AB2B85DD29A0170A00162990 /* MonteCarloOrbitalOverlapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85E629A0170B00162990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B85EF29A0170B00162990 /* MonteCarloOrbitalOverlapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B85F029A0170B00162990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B85FB29A0170B00162990 /* MonteCarloOrbitalOverlapUITestsLaunchTests.swift in Sources */,
+				AB2B85F929A0170B00162990 /* MonteCarloOrbitalOverlapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2B85EC29A0170B00162990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2B85D829A0170A00162990 /* MonteCarloOrbitalOverlap */;
+			targetProxy = AB2B85EB29A0170B00162990 /* PBXContainerItemProxy */;
+		};
+		AB2B85F629A0170B00162990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2B85D829A0170A00162990 /* MonteCarloOrbitalOverlap */;
+			targetProxy = AB2B85F529A0170B00162990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB2B85FC29A0170B00162990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB2B85FD29A0170B00162990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB2B85FF29A0170B00162990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonteCarloOrbitalOverlap/MonteCarloOrbitalOverlap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloOrbitalOverlap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2B860029A0170B00162990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonteCarloOrbitalOverlap/MonteCarloOrbitalOverlap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonteCarloOrbitalOverlap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB2B860229A0170B00162990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonteCarloOrbitalOverlap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonteCarloOrbitalOverlap";
+			};
+			name = Debug;
+		};
+		AB2B860329A0170B00162990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonteCarloOrbitalOverlap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonteCarloOrbitalOverlap";
+			};
+			name = Release;
+		};
+		AB2B860529A0170B00162990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonteCarloOrbitalOverlap;
+			};
+			name = Debug;
+		};
+		AB2B860629A0170B00162990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ag.MonteCarloOrbitalOverlapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonteCarloOrbitalOverlap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2B85D429A0170A00162990 /* Build configuration list for PBXProject "MonteCarloOrbitalOverlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B85FC29A0170B00162990 /* Debug */,
+				AB2B85FD29A0170B00162990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2B85FE29A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B85FF29A0170B00162990 /* Debug */,
+				AB2B860029A0170B00162990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2B860129A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B860229A0170B00162990 /* Debug */,
+				AB2B860329A0170B00162990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2B860429A0170B00162990 /* Build configuration list for PBXNativeTarget "MonteCarloOrbitalOverlapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B860529A0170B00162990 /* Debug */,
+				AB2B860629A0170B00162990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2B85D129A0170A00162990 /* Project object */;
+}
