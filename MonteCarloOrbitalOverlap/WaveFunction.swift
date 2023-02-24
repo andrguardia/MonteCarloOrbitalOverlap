@@ -18,11 +18,25 @@ class WaveFunction: ObservableObject {
     func s_OrbitalWaveFunction(x:Double, y:Double, z:Double, xCenter:Double, yCenter:Double, zCenter:Double)->Double{
         ///This function calculates the wave function for the S orbital of Hydrogen. Returns the value of the wave function at that point
         let r = sqrt((pow(x-xCenter,2.0)+pow(y-yCenter,2.0)+pow(z-zCenter,2.0)))///in angstrom
-        let principalquantumnumber = 1.0 ///For the S orbital
-        let rho = 2.0*Z*r/principalquantumnumber
-        let psi = pow(Z/bohrRadius, (3.0/2.0))*(1.0/sqrt(Double.pi))*exp(-Z*r/bohrRadius)
+        let rho = Z*r/bohrRadius
+        let psi = pow(Z/bohrRadius, (3.0/2.0))*(1.0/sqrt(Double.pi))*exp(-rho)
         
         return psi
     }
+    
+    func p_OrbitalWaveFunction(x:Double, y:Double, z:Double, xCenter:Double, yCenter:Double, zCenter:Double)->Double{
+        ///This function calculates the wave function for the P orbital of Hydrogen. Returns the value of the wave function at that point
+        ///
+        let constant_front = (1/sqrt(32.0*Double.pi))*pow(Z/bohrRadius, 3.0/2.0)
+        let r = sqrt((pow(x-xCenter,2.0)+pow(y-yCenter,2.0)+pow(z-zCenter,2.0)))///in angstrom
+        let rho = Z*r/bohrRadius
+        let theta = atan(y/x)
+        let psi = constant_front*rho*exp(-rho/2.0)*cos(theta)
+        
+        return psi
+        
+    }
+    
+    
 
 }

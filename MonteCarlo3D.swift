@@ -49,7 +49,7 @@ class MonteCarlo3D: NSObject {
         randZ = Double.random(in: lowerZBound...upperZBound)
     }
     
-    func calculateWaveFunctionMultiplication(){
+    func calculateSbySWaveFunctionMultiplication(){
         self.randomize()
         
         let wavefunctionOne = myWaveFunction.s_OrbitalWaveFunction(x: randX, y: randY, z: randZ, xCenter: (-0.5)*interAtomicSpacing, yCenter: 0, zCenter: 0)
@@ -60,6 +60,30 @@ class MonteCarlo3D: NSObject {
         total = total + 1.0
     }
     
+    func calculateSbyPWaveFunctionMultiplication(){
+        self.randomize()
+        
+        let wavefunctionOne = myWaveFunction.s_OrbitalWaveFunction(x: randX, y: randY, z: randZ, xCenter: (-0.5)*interAtomicSpacing, yCenter: 0, zCenter: 0)
+        
+        let wavefunctionTwo = myWaveFunction.p_OrbitalWaveFunction(x: randX, y: randY, z: randZ, xCenter: 0.5*interAtomicSpacing, yCenter: 0, zCenter: 0)
+        
+        sum = sum + wavefunctionOne*wavefunctionTwo
+        total = total + 1.0
+    }
+    
+    func calculatePbyPWaveFunctionMultiplication(){
+        self.randomize()
+        
+        let wavefunctionOne = myWaveFunction.p_OrbitalWaveFunction(x: randX, y: randY, z: randZ, xCenter: (-0.5)*interAtomicSpacing, yCenter: 0, zCenter: 0)
+        
+        let wavefunctionTwo = myWaveFunction.p_OrbitalWaveFunction(x: randX, y: randY, z: randZ, xCenter: 0.5*interAtomicSpacing, yCenter: 0, zCenter: 0)
+        
+        sum = sum + wavefunctionOne*wavefunctionTwo
+        total = total + 1.0
+    }
+    
+    
+    
     func calculateIntegral(){
         ///let average = sum/total
         ///
@@ -69,14 +93,29 @@ class MonteCarlo3D: NSObject {
         print(average)
     }
     
-    func computeAll(){
+    func computeAllSbyS(){
         ///This function computes all of the wavefunction multiplications, averages them and multiplies that value times the bounding box volume
         for _ in 0..<n {
-            self.calculateWaveFunctionMultiplication()
+            self.calculateSbySWaveFunctionMultiplication()
         }
         self.calculateIntegral()
     }
     
+    func computeAllSbyP(){
+        ///This function computes all of the wavefunction multiplications, averages them and multiplies that value times the bounding box volume
+        for _ in 0..<n {
+            self.calculateSbyPWaveFunctionMultiplication()
+        }
+        self.calculateIntegral()
+    }
+    
+    func computeAllPbyP(){
+        ///This function computes all of the wavefunction multiplications, averages them and multiplies that value times the bounding box volume
+        for _ in 0..<n {
+            self.calculatePbyPWaveFunctionMultiplication()
+        }
+        self.calculateIntegral()
+    }
     
 
     
