@@ -30,7 +30,7 @@ class WaveFunction: ObservableObject {
         let constant_front = (1/sqrt(32.0*Double.pi))*pow(Z/bohrRadius, 3.0/2.0)
         let r = sqrt((pow(x-xCenter,2.0)+pow(y-yCenter,2.0)+pow(z-zCenter,2.0)))///in angstrom
         let rho = Z*r/bohrRadius
-        let theta = atan(y/x)
+        let theta = atan2(y, x)
         let psi = constant_front*rho*exp(-rho/2.0)*cos(theta)
         
         return psi
